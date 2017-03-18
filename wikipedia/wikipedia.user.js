@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        Hide Wikipedia Sidebar
-// @namespace   Hide Wikipedia Sidebar
+// @name        wikipedia
+// @namespace   wikipedia
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     https://en.wikipedia.org/wiki/*
 // @version     1

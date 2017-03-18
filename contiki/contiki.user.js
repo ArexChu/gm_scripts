@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        Hide Contiki Sidebar
-// @namespace   Hide Contiki Sidebar
+// @name        contiki
+// @namespace   contiki
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     http://anrg.usc.edu/contiki/*
 // @version     1
