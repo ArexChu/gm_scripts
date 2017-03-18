@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        IEEE
-// @namespace   IEEE
+// @name        Hide IEEE Sidebar
+// @namespace   Hide IEEE Sidebar
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     http://ieeexplore.ieee.org/document/*
 // @version     1

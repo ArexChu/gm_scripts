@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        Texas Instruments
-// @namespace   Texas Instruments
+// @name        Hide Texas Instruments Sidebar
+// @namespace   Hide Texas Instruments Sidebar
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     http://processors.wiki.ti.com/*
 // @version     1
