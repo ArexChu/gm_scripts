@@ -1,38 +1,27 @@
 <UserScriptConfig>
-	<Script basedir="Hide_Wikipedia_Sidebar" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="Hide_Wikipedia_Sidebar.user.js" installTime="1482388286000" modified="1482999027624" name="Hide Wikipedia Sidebar" namespace="Hide Wikipedia Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="499dbab8-0714-7a45-9177-4ae16a4e5595" version="1" installurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/Hide_Wikipedia_Sidebar/Hide_Wikipedia_Sidebar.user.js" updateurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/Hide_Wikipedia_Sidebar/Hide_Wikipedia_Sidebar.user.js">
+	<Script basedir="wikipedia" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="wikipedia.user.js" installTime="1482388286000" modified="1482544715000" name="Hide Wikipedia Sidebar" namespace="Hide Wikipedia Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="499dbab8-0714-7a45-9177-4ae16a4e5595" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>https://en.wikipedia.org/wiki/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="Hide_IEEE_Sidebar" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="Hide_IEEE_Sidebar.user.js" installTime="1482543285000" modified="1482999027624" name="Hide IEEE Sidebar" namespace="Hide IEEE Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="3553cc68-9d36-964a-af50-f99c066040f5" version="1" installurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/Hide_IEEE_Sidebar/Hide_IEEE_Sidebar.user.js" updateurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/Hide_IEEE_Sidebar/Hide_IEEE_Sidebar.user.js">
+	<Script basedir="ieee-full-text" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee-full-text.user.js" installTime="1482543285000" modified="1482544958000" name="Hide IEEE Full Text Sidebar" namespace="Hide IEEE Full Text Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="3553cc68-9d36-964a-af50-f99c066040f5" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script author="hoothin" basedir="Kill_Baidu_AD" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Just Kill Baidu AD" enabled="true" filename="Kill_Baidu_AD.user.js" installTime="1482460779000" modified="1482999027624" name="Kill Baidu AD" namespace="hoothin" noframes="false" runAt="document-end" updateMetaStatus="ok" uuid="65d7fef2-cab8-2a46-beab-168f16f41240" version="0.6" installurl="https://greasyfork.org/scripts/24192-kill-baidu-ad/code/Kill%20Baidu%20AD.user.js" updateurl="https://greasyfork.org/scripts/24192-kill-baidu-ad/code/Kill%20Baidu%20AD.user.js">
-		<Grant>none</Grant>
-		<Include>http*://www.baidu.com/*</Include>
-		<Include>http*://m.baidu.com/*</Include>
-		<Name lang="zh-CN">百度广告(首尾推广及右侧广告)清理</Name>
-		<Description lang="zh-CN">彻底清理百度搜索(www.baidu.com)结果首尾的推广广告、二次顽固广告与右侧广告，并防止反复</Description>
-	</Script>
-	<Script basedir="Purify_Baidu_Search" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="百度搜索净化，去除推广链接和默认安装百度杀毒" enabled="true" filename="Purify_Baidu_Search.user.js" installTime="1482461086000" modified="1482999027624" name="Purify Baidu Search" namespace="https://greasyfork.org/zh-CN/scripts/13808" noframes="false" runAt="document-start" updateMetaStatus="ok" uuid="dbf92419-7b8f-fa42-aab2-8c9ba1168c55" version="2.0" installurl="https://greasyfork.org/scripts/13808-purify-baidu-search/code/Purify%20Baidu%20Search.user.js" updateurl="https://greasyfork.org/scripts/13808-purify-baidu-search/code/Purify%20Baidu%20Search.user.js">
-		<Grant>none</Grant>
-		<Include>*www.baidu.com*</Include>
-	</Script>
-	<Script author="Netplaier" basedir="百度Baidu网盘HTTP转HTTPS" checkRemoteUpdates="1" dependhash="7c048cfd7f2f98cca6e7950b11a1e4528d914888" description="将百度网盘的链接(http://pan.baidu.com/)转换为HTTPS协议(https://pan.bidu.com)，可以直接下载大文件。" enabled="true" filename="%E7%99%BE%E5%BA%A6Baidu%E7%BD%91%E7%9B%98HTTP%E8%BD%ACHTTPS.user.js" installTime="1482484744000" modified="1482999027624" name="百度Baidu网盘HTTP转HTTPS" namespace="https://greasyfork.org/users/39670" noframes="false" runAt="document-end" updateMetaStatus="ok" uuid="237c5b9d-895d-4849-bac8-c90968f1d1e2" version="1.01" installurl="https://greasyfork.org/scripts/18972-%E7%99%BE%E5%BA%A6baidu%E7%BD%91%E7%9B%98http%E8%BD%AChttps/code/%E7%99%BE%E5%BA%A6Baidu%E7%BD%91%E7%9B%98HTTP%E8%BD%ACHTTPS.user.js" updateurl="https://greasyfork.org/scripts/18972-%E7%99%BE%E5%BA%A6baidu%E7%BD%91%E7%9B%98http%E8%BD%AChttps/code/%E7%99%BE%E5%BA%A6Baidu%E7%BD%91%E7%9B%98HTTP%E8%BD%ACHTTPS.user.js" icon="favicon.ico">
-		<Grant>none</Grant>
-		<Include>http://pan.baidu.com/*</Include>
-		<Include>http://yun.baidu.com/*</Include>
-	</Script>
-	<Script basedir="ieee" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee.user.js" installTime="1482551702000" modified="1482999027624" name="ieee" namespace="ieee" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="745bd541-fe4f-f04a-82a3-c357b71447b7" version="1" installurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/ieee/ieee.user.js" updateurl="file:///Users/arex/Library/Application%20Support/Firefox/Profiles/3wmnspk1.default/gm_scripts/ieee/ieee.user.js">
+	<Script basedir="ieee" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee.user.js" installTime="1482551702000" modified="1489801787000" name="Hide IEEE Sidebar" namespace="Hide IEEE Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="745bd541-fe4f-f04a-82a3-c357b71447b7" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://ieeexplore.ieee.org/document/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="Hide_Contiki_Sidebar" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="Hide_Contiki_Sidebar.user.js" installTime="1487211864947" modified="1487211880719" name="Hide Contiki Sidebar" namespace="Hide Contiki Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b417d38a-cb10-4f31-8929-f73ee8bd4c54" version="1" installurl="file:///C:/Users/Arex/AppData/Roaming/Mozilla/Firefox/Profiles/9tqgg8t9.default/gm_scripts/Hide_Contiki_Sidebar/Hide_Contiki_Sidebar.user.js" updateurl="file:///C:/Users/Arex/AppData/Roaming/Mozilla/Firefox/Profiles/9tqgg8t9.default/gm_scripts/Hide_Contiki_Sidebar/Hide_Contiki_Sidebar.user.js">
+	<Script basedir="contiki" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="contiki.user.js" installTime="1487211864947" modified="1487214963000" name="Hide Contiki Sidebar" namespace="Hide Contiki Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b417d38a-cb10-4f31-8929-f73ee8bd4c54" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://anrg.usc.edu/contiki/*</Include>
+		<Require filename="jquery-3.1.0.min.js"/>
+	</Script>
+	<Script basedir="texas-instruments" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="texas-instruments.user.js" installTime="1489798572000" modified="1489801751000" name="Hide Texas Instruments Sidebar" namespace="Hide Texas Instruments Sidebar" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="4e42bcd0-c224-6542-bbdc-a3bf2f52f2ba" version="1" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://processors.wiki.ti.com/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
 </UserScriptConfig>

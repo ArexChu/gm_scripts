@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        ieee
-// @namespace   ieee
+// @name        IEEE
+// @namespace   IEEE
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     http://ieeexplore.ieee.org/document/*
 // @version     1

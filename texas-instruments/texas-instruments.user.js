@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        texas_instruments
-// @namespace   texas_instruments
+// @name        Texas Instruments
+// @namespace   Texas Instruments
 // @require     https://code.jquery.com/jquery-3.1.0.min.js
 // @include     http://processors.wiki.ti.com/*
 // @version     1
