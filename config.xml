@@ -1,27 +1,34 @@
 <UserScriptConfig>
-	<Script basedir="wikipedia" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="wikipedia.user.js" installTime="1482388286000" modified="1489805803000" name="wikipedia" namespace="wikipedia" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="499dbab8-0714-7a45-9177-4ae16a4e5595" version="1" updateurl="null">
+	<Script basedir="wikipedia" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="wikipedia.user.js" installTime="1482388286000" modified="1489806044000" name="wikipedia" namespace="wikipedia" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="499dbab8-0714-7a45-9177-4ae16a4e5595" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>https://en.wikipedia.org/wiki/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="ieee-full-text" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee-full-text.user.js" installTime="1482543285000" modified="1489805743000" name="ieee full text" namespace="ieee full text" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="3553cc68-9d36-964a-af50-f99c066040f5" version="1" updateurl="null">
+	<Script basedir="ieee-full-text" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee-full-text.user.js" installTime="1482543285000" modified="1491315405000" name="ieee full text" namespace="ieee full text" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="3553cc68-9d36-964a-af50-f99c066040f5" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="ieee" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee.user.js" installTime="1482551702000" modified="1489805759000" name="ieee" namespace="ieee" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="745bd541-fe4f-f04a-82a3-c357b71447b7" version="1" updateurl="null">
+	<Script basedir="ieee" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="ieee.user.js" installTime="1482551702000" modified="1489806044000" name="ieee" namespace="ieee" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="745bd541-fe4f-f04a-82a3-c357b71447b7" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://ieeexplore.ieee.org/document/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="contiki" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="contiki.user.js" installTime="1487211864947" modified="1489805680000" name="contiki" namespace="contiki" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b417d38a-cb10-4f31-8929-f73ee8bd4c54" version="1" updateurl="null">
+	<Script basedir="contiki" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="contiki.user.js" installTime="1487211864947" modified="1489806044000" name="contiki" namespace="contiki" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b417d38a-cb10-4f31-8929-f73ee8bd4c54" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://anrg.usc.edu/contiki/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
 	</Script>
-	<Script basedir="texas-instruments" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="texas-instruments.user.js" installTime="1489798572000" modified="1489805787000" name="texas instruments" namespace="texas instruments" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="4e42bcd0-c224-6542-bbdc-a3bf2f52f2ba" version="1" updateurl="null">
+	<Script basedir="texas-instruments" checkRemoteUpdates="1" dependhash="cd7987bdc3de6f13e9f9db42e786c85ce10795ed" description="" enabled="true" filename="texas-instruments.user.js" installTime="1489798572000" modified="1491315405000" name="texas instruments" namespace="texas instruments" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="4e42bcd0-c224-6542-bbdc-a3bf2f52f2ba" version="1" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://processors.wiki.ti.com/*</Include>
 		<Require filename="jquery-3.1.0.min.js"/>
+	</Script>
+	<Script basedir="ThunderLixianExporter" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="export thunder lixian url to aria2/wget" enabled="true" filename="ThunderLixianExporter.user.js" installTime="1491315522000" modified="1491315548000" name="ThunderLixianExporter" namespace="http://dynamic.cloud.vip.xunlei.com/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="6264cf97-2520-4e39-9de1-af06efe7e00f" version="0.78.4" updateurl="https://cdn.rawgit.com/binux/ThunderLixianExporter/master/ThunderLixianExporter.meta.js">
+		<Grant>none</Grant>
+		<Include>http://dynamic.cloud.vip.xunlei.com/user_task*</Include>
+		<Include>http://lixian.vip.xunlei.com/lx3_task.html*</Include>
+		<Include>http://jiayuan.xunlei.com/lxhome/lx3_task.html*</Include>
+		<Include>http://cloud.vip.xunlei.com/*</Include>
 	</Script>
 </UserScriptConfig>
