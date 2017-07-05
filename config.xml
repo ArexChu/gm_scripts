@@ -40,4 +40,11 @@
 		<Match>*://yun.baidu.com/share/link*</Match>
 		<Require filename="jquery-latest.js"/>
 	</Script>
+	<Script basedir="ThunderLixianExporter" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="export thunder lixian url to aria2/wget" enabled="true" filename="ThunderLixianExporter.user.js" installTime="1499258324000" modified="1499258324000" name="ThunderLixianExporter" namespace="http://dynamic.cloud.vip.xunlei.com/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="cd20b737-4f8f-ee42-ad4f-0c4c13dd1500" version="0.78.4" installurl="https://greasyfork.org/scripts/5376-thunderlixianexporter/code/ThunderLixianExporter.user.js" updateurl="https://greasyfork.org/scripts/5376-thunderlixianexporter/code/ThunderLixianExporter.user.js">
+		<Grant>none</Grant>
+		<Include>http://dynamic.cloud.vip.xunlei.com/user_task*</Include>
+		<Include>http://lixian.vip.xunlei.com/lx3_task.html*</Include>
+		<Include>http://jiayuan.xunlei.com/lxhome/lx3_task.html*</Include>
+		<Include>http://cloud.vip.xunlei.com/*</Include>
+	</Script>
 </UserScriptConfig>
